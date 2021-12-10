@@ -1,0 +1,4 @@
+#FFCC1D Amarillo oscuro
+#0B4619 Verde oscuro
+#116530 Verde claro 
+#E8E8CC Amarillo claro 

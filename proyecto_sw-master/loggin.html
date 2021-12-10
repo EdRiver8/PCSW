@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">   
+    <script src="Js/jquery-3.5.1.min.js"></script>
+    <script src="Js/loggin.js"></script>
+    <link rel="stylesheet" href="CSS/style.css" type="text/css">
+</head>
+
+<body>
+
+    
+    <div id="c1" class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div lass="container">
+                    <h1 id="tBody">
+                        VIAJA,<br>ESTUDIA<br>Y APRENDE
+                    </h1>
+                    <h1 id="tBody2">
+                        Sistema de viajes <br> Politecnico Jaime Isaza Cadavid
+                    </h1>
+                    <img id="imgP" src="https://www.politecnicojic.edu.co/images/logo/logo-negro.png" alt="">
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div id="c2" class="container">
+                    <div id="formContent">
+                        <!-- Tabs Titles -->
+
+                        <!-- Icon -->
+                        <div class="fadeIn first">
+                            <h2 class="my-5" style="color: black">Ingresar</h2>
+                        </div>
+
+                        <!-- Login Form -->
+                        <form method="GET" action="perfil.html" id="login">
+                            <input type="text" id="email" class="fadeIn second zero-raduis" name="email"
+                                placeholder="usuario" onchange="validar()">
+                            <input type="text" id="password" class="fadeIn third zero-raduis" name="login"
+                                placeholder="contraseña">
+                            <div id="formFooter">
+                                <a class="underlineHover" href="olvido.html">¿Olvidaste la contraseña?</a>
+                            </div>
+                            <input type="submit" class="fadeIn fourth zero-raduis" value="login" id="BT_log" onclick="#">
+                            <h2>¿Eres nuevo?</h2>
+                            <input type="button" class="fadeIn fourth zero-raduis pc" value="registrarse"
+                                onclick="location.href='registro.html'" style="margin-bottom: 0em;">
+                        </form>
+                        <div id="formFooter">
+                            <a class="underlineHover small" href="documentación/guia/login-lock.html">¡Ayuda!</a>
+                        </div>
+                        
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

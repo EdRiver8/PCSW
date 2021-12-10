@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Js/jquery-ui-1.12.1.custom/jquery-ui.css">
+    <script src="Js/jquery-3.5.1.min.js"></script>
+    <script src="Js/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+    <link rel="stylesheet" href="/CSS/registro.css" type="text/css">
+    <script src="Js/registrar.js"></script>
+</head>
+<body>
+    
+    <div class="container" id="contReport">
+        <div class="jumbotron" id="jReport">
+            <form>
+              <center>
+                    <h2>
+                        Registro 
+                    </h2><br><br>
+                </center>
+                <div class="form-group">
+                    <label for="inputTitle">Nombre</label>
+                    <input type="text" class="form-control" id="inputTitle" placeholder="Nombre">
+                </div>
+                <div class="form-group">
+                    <label for="inputTitle">Cedula</label>
+                    <input type="text" class="form-control" id="inputTitle" placeholder="CC.">
+                </div>
+                <div class="form-group">
+                    <label for="inputFormat">Sede</label><br>
+                    <select name="" id="inputFormat">
+                        <option value="1">Medellin</option>
+                        <option value="2">Rionegro</option>
+                        <option value="3">Uraba</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="inputAutor">Email</label>
+                    <input type="email" class="form-control" id="inputAutor" placeholder="Email">
+                </div>
+
+                <div class="form-group">
+                    <label for="inputDate">Fecha de nacimiento</label>
+                    <input type="date" class="form-control" id="inputDate" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="inputTitle">Contraseña</label>
+                    <input type="password" class="form-control" id="con1" placeholder="contraseña">
+                </div>
+                <div class="form-group">
+                    <label for="inputTitle">Confirmar</label>
+                    <input onchange="verificar()" type="password" class="form-control" id="con2" placeholder="contrasena">
+                </div>
+        
+                <center>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-lg-4" style="margin-left: 10em;">
+                            <button  type="button" onclick="location.href='loggin.html'" class="btn btn-light btn-lg" id="BT_log" style="">Confirmar</button>    
+                        </div>
+                        <div class="col-lg-4">
+                            <button type="button" onclick="location.href='loggin.html'" class="btn btn-light btn-lg" id="formCancel" >Cancelar</button>
+                        </div>
+                    </div>
+                </div>
+            </center>
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>

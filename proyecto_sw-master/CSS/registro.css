@@ -1,0 +1,36 @@
+header {
+    background-color: #E8E8CC;
+    width: 100%;
+  }
+  
+  body {
+   
+    background-attachment: fixed;
+    background-color: #116530
+    /*-Imagen fondo*/
+  }
+  #sym{
+    width: 10em;
+    height: auto;
+    margin-top: 2em;
+    margin-left: 18em;
+    margin-bottom: 1em;
+    margin-right: 0em;
+}/*-Logo*/
+#tHead{
+  float: right;
+  margin-left: 0em;
+  margin-right: 3.1em;
+  font-size: 75px;
+  margin-top: 0.8em;
+  text-shadow: 4px 4px 10px #E8E8CC;
+} /*texto encabezado*/
+#contReport{
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+#jReport{
+    background-color:  #E8E8CC;
+    color: black;
+    margin-bottom: 0px
+}

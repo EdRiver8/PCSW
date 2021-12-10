@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Js/jquery-ui-1.12.1.custom/jquery-ui.css">
+    <script src="Js/jquery-3.5.1.min.js"></script>
+    <script src="Js/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+    <script src="Js/olvido.js"></script>
+    <link rel="stylesheet" href="CSS/styleolvido.css" type="text/css">
+</head>
+<body>
+    <header>
+        <center>
+            <div id="conHead" class="container">
+               
+           
+            </div>
+        </center>
+    </header>
+    <div id="cOlvido" class="container">
+        <div class="jumbotron" id="jOlvid">
+            <center>
+            <h3 style="color: black;">Recuperación de contraseña</h3>
+             </center>
+             <br><br>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div id="cIzq" class="card">
+                        <h4 class="card-title">
+                            <center>
+                            Por nombre de usuario
+                             </center>
+                        </h4>
+                        <div class="card-body">
+                           <center>
+                            <label for=""><h5>Usuario</h5></label>
+                            <input type="email" id="email" class="fadeIn second zero-raduis" name="email"
+                            placeholder="Usuario">
+                            <br>
+                            <button class="btn btn-light" onclick="confRecupe()" style="border-color: #8C8C8C">Recuperar</button>
+                          </center> 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div id="cIzq" class="card">
+                        <h4 class="card-title">
+                            <center>
+                            Por correo electrónico
+                             </center>
+                        </h4>
+                        <div class="card-body">
+                           <center>
+                            <label for=""><h5>Email</h5></label>
+                            <input type="email" id="email" class="fadeIn second zero-raduis" name="email"
+                            placeholder="Email">
+                            <br>
+                            <button class="btn btn-light" onclick="confRecupe()" style="border-color: #8C8C8C">Recuperar</button>
+                          </center> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <center>
+                <button onclick="location.href='loggin.html'" class="btn btn-light" style="border-color: #8C8C8C">Regresar</button>
+            </center>
+        </div>
+    </div>
+</body>
+</html>

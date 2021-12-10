@@ -1,0 +1,11 @@
+MOVILIDAD
+
+1. Descripción del Problema
+
+La Facultad de Ingenierías del Politécnico Colombiano JIC, necesita un sistema para gestionar las movilidades de los diferentes profesores y estudiantes que participan en actividades de movilidad, para ello se necesita una aplicación que permita registrar las movilidades. De las movilidades se requiere si es saliente o entrante, (que sirven para realizar búsquedas), alcance (regional, nacional, internacional), Identificación y nombre de la persona que realizó la movilidad, el programa al que pertenece la persona que realiza la movilidad, resultado de convocatoria, tipo de movilidad (pasantía, evento, visita empresarial, académica, investigación) y los comentarios que pueden colocar las personas que consulten la movilidad. 
+
+De la persona que realiza la movilidad se requiere identificación, nombre, lugar de la movilidad, fechas, descripción de la movilidad, tipo de relación con la institución (profesor, estudiante, graduado, administrativo, directivo, etc), email y ciudad, informe de evidencia de la movilidad (archivo que se puede subir o link a archivo).
+
+De los comentarios se requiere el texto del comentario y el usuario que lo realizó.
+
+Se necesita que se puedan mostrar para un tipo de movilidad las que se han realizado, el programa al que pertenece la persona que realizó la movilidad.

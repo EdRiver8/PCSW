@@ -1,0 +1,38 @@
+header{
+    background-color: #8C8C8C;
+    width: 100%;
+}
+body{
+    
+    background-attachment: fixed;
+    background-color: #116530;
+    /*-Imagen fondo*/
+}
+#cOlvido{
+    background-color: #E8E8CC;
+    margin-top: 5em;
+}
+
+#jOlvid{
+    background-color: #E8E8CC
+}
+
+#sym{
+    width: 10em;
+    height: auto;
+    margin-top: 2em;
+    margin-left: 18em;
+    margin-bottom: 1em;
+    margin-right: 0em;
+}/*-Logo*/
+#tHead{
+    float: right;
+    margin-left: 0em;
+    margin-right: 3.1em;
+    font-size: 75px;
+    margin-top: 0.8em;
+    text-shadow: 4px 4px 10px white;
+  } /*texto encabezado*/
+  #conHead{
+    margin-right: 30em;
+  }
